@@ -11,29 +11,28 @@ and the Flutter guide for
 [developing packages and plugins](https://flutter.dev/to/develop-packages).
 -->
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+A package for custom text widgets with Google Fonts.
 
 ## Features
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+Add some text widget such as text, text link, text with color gradient, selectable text
 
 ## Getting started
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+```bash
+  dependencies:
+  gullaa_text_widget: ^0.0.1
+```
 
 ## Usage
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder.
-
 ```dart
-const like = 'sample';
+import 'package:your_package_name/text_widget.dart';
+
+TextWidget(
+  title: "Example Text",
+  size: 16.0,
+  color: Colors.black,
+  weight: FontWeight.normal,
+);
 ```
-
-## Additional information
-
-TODO: Tell users more about the package: where to find more information, how to
-contribute to the package, how to file issues, what response they can expect
-from the package authors, and more.
