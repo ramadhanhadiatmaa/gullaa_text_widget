@@ -1,0 +1,20 @@
+name: gullaa_text_widget
+description: "A package for custom text widgets with Google Fonts."
+version: 0.0.1
+homepage: https://github.com/ramadhanhadiatmaa/gullaa_text_widget
+
+environment:
+  sdk: ^3.6.0
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_fonts: ^6.2.1
+
+dev_dependencies:
+  flutter_lints: ^5.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter: null
